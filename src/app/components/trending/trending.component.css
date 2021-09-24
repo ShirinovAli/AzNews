@@ -1,0 +1,174 @@
+/* TRENDING AREA START */
+
+#trending-area {
+    padding-top: 50px;
+    background-color: #f8f9fa;
+}
+
+#trending-area .trending-main {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 50px;
+}
+
+.trending-area .trending-button span {
+    background-color: #ff0b0b;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.trending-area .trending-text {
+    margin-left: 50px;
+    /* overflow: hidden; */
+}
+
+.trending-area .trending-text p {
+    color: #847977;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    /* width: 24em; */
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    /* font-size: 180%; */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{  
+  from{width: 0;}
+  to{width: 100%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+/* Trending left start */
+
+.trending-bottom .tr-left-main {
+    position: relative;
+}
+
+.trending-bottom .tr-left-main .tr-img::before {
+    background: linear-gradient(to bottom, rgba(2,26,71,0) 0%, rgba(2,26,71,0.6) 100%);
+}
+
+.trending-bottom .tr-left-main .tr-img::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    content: "";
+}
+
+.trending-bottom .tr-left-main .tr-img img {
+    width:100%;
+}
+
+.trending-bottom .tr-left-main .tr-left-title {
+    position: absolute;
+    bottom: 15%;
+    padding-left: 70px;
+}
+
+.trending-bottom .tr-left-title span {
+    background-color: #fff9c6;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.trending-bottom .tr-left-title h2 {
+    margin-top: 20px;
+}
+
+.trending-bottom .tr-left-title h2 a {
+    color: #fff;
+}
+
+.tr-left-bottom {
+    margin-top: 30px;
+}
+
+.single-trending-top img {
+    width: 100%;
+}
+
+.single-trending-bottom span {
+    font-size: 13px;
+    background-color: #ffe7e6;
+    padding: 5px 8px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.single-trending-bottom h4 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.single-trending-bottom h4 a {
+    color: #000;
+}
+
+/* Trending left end */
+
+
+/* TRENDING RIGHT START */
+
+/* .tr-right-single .tr-right-single-img img {
+    width: 100%;
+}  */
+
+.tr-right-single:not(:last-child) {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.tr-right-single:not(:first-child){
+    padding-top: 20px;
+}
+
+
+.tr-right-single-title {
+    margin-left: 15px;
+}
+
+.tr-right-single-title span{
+    font-size: 13px;
+    background-color: #ffe7e6;
+    padding: 5px 8px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.tr-right-single-title h4 {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.tr-right-single-title h4 a {
+    color: #000;
+}
+
+
+/* TRENDING RIGHT END */
+
+/* TRENDING AREA END */
